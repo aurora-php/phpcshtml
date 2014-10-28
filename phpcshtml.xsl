@@ -66,7 +66,7 @@
                             <xsl:for-each select="warning">
                                 <tr class="warning">
                                     <td valign="top">
-                                        <a href="txmt://open?url=file://&amp;line={@line}&amp;column={@column}"><xsl:value-of select="@line" /></a>
+                                        <a href="txmt://open?url=file://{../@name}&amp;line={@line}&amp;column={@column}"><xsl:value-of select="@line" /></a>
                                     </td><td>
                                         <xsl:value-of select="self::node()"/>
                                     </td>
