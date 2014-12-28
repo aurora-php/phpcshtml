@@ -26,6 +26,9 @@
                     text-align: left;
                     border-bottom: 1px solid #000;
                 }
+                td {
+                    border-bottom: 1px dotted #000;
+                }
                 .error {
                     color: #aa0000;
                 }
