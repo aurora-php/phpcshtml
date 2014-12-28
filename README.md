@@ -7,6 +7,6 @@ Example
 -------
 
     phpcs -n --standard=psr2 --extensions=php --report-xml <path> \
-        | xsltproc phpcshtml.xsl -
+        | xsltproc phpcshtml.xsl - \
         > /tmp/report.html
 
